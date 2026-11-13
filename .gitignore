@@ -1,0 +1,15 @@
+@"
+.venv/
+__pycache__/
+*.pyc
+.env
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+node_modules/
+*.pem
+*.csv
+secrets/
+"@ | Set-Content -Path .gitignore -Encoding ascii
